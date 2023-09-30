@@ -47,5 +47,8 @@ function setTimer(){
         
     }
 
-
+    document.getElementById("custom-seconds").value="";
+    document.getElementById("custom-minutes").value="";
+    document.getElementById("custom-hours").value="";
+    
 }
