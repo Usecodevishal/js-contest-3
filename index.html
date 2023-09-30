@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+</head>
+<body>
+    <div id="container">
+        <h2 class="app-heading">Single Timer App</h2>
+        <div id="timer-input">
+            <p>Set Time:</p>
+            <div class="input-div">
+                <input type="number" placeholder="hh:" class="custom-input" id="custom-hours">
+                <input type="number" placeholder="mm:" class="custom-input" id="custom-minutes">
+                <input type="number" placeholder="ss:" class="custom-input" id="custom-seconds">
+            </div>
+            <button type="submit" class="set-button" onClick="setTimer()" >Set</button>
+        </div>
+        <div class="current-timers">
+            <p>Current Timers</p>
+        </div>
+
+        <div id="display-timers"></div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

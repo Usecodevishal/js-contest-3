@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@1&family=DM+Sans:opsz,wght@9..40,700&family=Inter:wght@300;400;500;600;700;800;900&family=Open+Sans:wght@300&family=Roboto:wght@500&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+body{
+    background-color: #1d1d23;
+    color:white;
+}
+
+#container{
+    width:80vw;
+    height:fit-content;
+    margin:auto;
+    border:1px solid red;
+}
+
+.app-heading{
+    text-align: center;
+    font-size:36px;
+    font-weight:500;
+}
+
+#timer-input{
+    display:flex;
+    width:90%;
+    height:132px;
+    justify-content: space-around;
+    background-color: #34344a;
+    margin:auto;
+    align-items: center;
+    border-radius:20px;
+    
+}
+
+#timer-input p{
+    font-size:24px;
+}
+
+.input-div{
+    display:flex;
+    justify-content: center;
+    gap:1rem;
+    width:50%;
+    height:40%;
+    
+    text-align:center;
+}
+
+.set-button{
+    width:124px;
+    height:52px;
+    border-radius: 26px;
+    background-color: #f0f757;
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    transition:all ease 0.3s;
+    font-size:30px;
+}
+
+.set-button:active{
+    scale:0.80;
+}
+
+.custom-input{
+   background-color:#34344a;
+   text-decoration: none;
+   border:none;
+   width:15%;
+   color:white;
+   font-size:30px;
+  
+   
+}
+
+.custom-input::placeholder{
+    color:white;
+    font-size:40px;
+    text-decoration: underline;
+}
+
+.custom-input:focus{
+    outline: none;
+}
+
+.current-timers{
+margin:2rem auto;
+    width:50%;
+    height:70px;
+    background-color: #39393e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    font-size:25px;
+}
+
+#display-timers{
+    margin:2rem auto;
+    text-align:center;
+    height:fit-content;
+    font-size:40px;
+}
+
