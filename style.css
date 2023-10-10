@@ -48,7 +48,7 @@ body{
     text-align:center;
 }
 
-.set-button{
+#set-button{
     width:124px;
     height:52px;
     border-radius: 26px;
@@ -61,7 +61,7 @@ body{
     font-size:30px;
 }
 
-.set-button:active{
+#set-button:active{
     scale:0.80;
 }
 
